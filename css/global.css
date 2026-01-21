@@ -30,6 +30,10 @@ button {
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Montsarrat";
+}
+
 @font-face {
   font-family: "Montsarrat";
   src: url("../fonts/Montserrat-VariableFont_wght.ttf");
