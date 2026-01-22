@@ -81,7 +81,7 @@ body {
     font-size: 32px;
   }
 
-  .button{
+  .button:hover{
     background-color: var(--primary-color);
   }
 }

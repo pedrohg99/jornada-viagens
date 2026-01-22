@@ -13,24 +13,40 @@
   background-color: transparent;
   position: static;
   padding: 0;
-  margin-bottom: 24px;
 }
 
 .card header p {
   font-size: 20px;
-  font-weight: var(--title-weight);
+  font-weight: var(--text-weight);
 }
 
-.card header h3 {
-  margin: 8px 0 0;
+.card h3 {
+  margin: 8px 0;
   font-size: 40px;
   font-weight: var(--title-weight);
+    margin-bottom: 24px;
 }
 
-.card header span {
-  font-size: 43px;
+.card span {
+  font-size: 32px;
   margin-top: 24px;
   display: inline-block;
+}
+
+.card.japao {
+  background: url(../img/bg-card-japao.jpg) no-repeat;
+}
+
+.card.san-andreas {
+  background: url(../img/bg-card-san-andreas.jpg) no-repeat;
+}
+
+.card.paraiba {
+  background: url(../img/bg-card-paraiba.jpg) no-repeat;
+}
+
+.card.manaus {
+  background: url(../img/bg-card-manaus.jpg) no-repeat;
 }
 
 @media screen and (min-width: 1024px) {
