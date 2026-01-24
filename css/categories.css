@@ -1,0 +1,10 @@
+.card-pacotes {
+  text-align: center;
+  color: var(--text-primary-color);
+  font-weight: var(--title-weight);
+  font-size: 28px;
+  text-decoration: none;
+  display: block;
+  padding: 41px 16px;
+  background-color: var(--background-secondary-color);
+}
