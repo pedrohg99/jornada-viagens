@@ -1,0 +1,94 @@
+.payments .img-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.payments .content-container {
+  display: flex;
+}
+
+.payments .content-container .img-content .image.bag {
+  background: url(../img/bag.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .img-content .image.passport {
+  background: url(../img/passport.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .img-content .image.people {
+  background: url(../img/people.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .img-content .image.colspan-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payments .content-container .img-content .image.bag {
+    background: url(../img/bag-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .img-content .image.passport {
+    background: url(../img/passport-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .img-content .image.people {
+    background: url(../img/people-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payments .content-container .img-content .image.bag {
+    background: url(../img/bag-desk.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .img-content .image.passport {
+    background: url(../img/passport-desk.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .img-content .image.people {
+    background: url(../img/people-desk.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    justify-content: space-between;
+  }
+
+  .payments .content-container .text-content {
+    width: 360px;
+  }
+
+  .payment .content-containers .img-content {
+    width: 790px;
+  }
+
+  .payments .content-container .img-content .image.bag {
+    background: url(../img/bag-desk.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .img-content .image.passport {
+    background: url(../img/passport-desk.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .img-content .image.people {
+    background: url(../img/people-desk.png) no-repeat;
+    background-size: cover;
+  }
+}
