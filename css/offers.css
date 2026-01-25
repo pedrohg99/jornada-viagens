@@ -1,4 +1,4 @@
-.offers{
+.offers {
   margin-bottom: 104px;
 }
 
@@ -20,15 +20,7 @@
 }
 
 .offers-cards .card header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
-}
-
-.offers-cards .card header p {
-  font-size: 20px;
-  font-weight: var(--text-weight);
+  margin-bottom: 24px;
 }
 
 .offers-cards .card h3 {
@@ -42,6 +34,11 @@
   font-size: 32px;
   margin-top: 24px;
   display: inline-block;
+}
+
+.offers-cards .card header p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
 }
 
 .offers-cards .card.japao {
@@ -69,6 +66,9 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .offers-cards .card {
+    width: 588px;
+  }
   .offers-cards .card {
     width: 420px;
     height: 308px;
