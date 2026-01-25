@@ -26,4 +26,57 @@
   grid-column: span 2;
 }
 
+@media screen and (min-width: 768px) {
+  .bag {
+    background: url(../img/bag-tablet-desk.png) no-repeat;
+  }
 
+  .passport {
+    background: url(../img/passport-tablet-desk.png) no-repeat;
+  }
+
+  .people {
+    background: url(../img/people-tablet-desk.png) no-repeat;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bag {
+    background: url(../img/bag-desk.png) no-repeat;
+    background-size: cover;
+  }
+
+  .passport {
+    background: url(../img/passport-desk.png) no-repeat;
+    background-size: cover;
+  }
+
+  .people {
+    background: url(../img/people-desk.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments-content {
+    display: grid;
+    grid-template-columns: 384px 1fr;
+    grid-template-areas: "text-content" "img-content";
+    gap: 24px;
+  }
+
+  .bag {
+    background: url(../img/bag-desk.png) no-repeat;
+    background-size: cover;
+  }
+
+  .passport {
+    background: url(../img/passport-desk.png) no-repeat;
+    background-size: cover;
+  }
+
+  .people {
+    background: url(../img/people-desk.png) no-repeat;
+    background-size: cover;
+  }
+}
