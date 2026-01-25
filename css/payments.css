@@ -3,12 +3,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 24px;
   height: 460px;
-  margin-top: 24px;
   width: 100%;
-}
-
-.payments .content-container {
-  display: flex;
 }
 
 .payments .content-container .img-content .image.bag {
@@ -66,29 +61,17 @@
 
 @media screen and (min-width: 1440px) {
   .payments .content-container {
+    display:flex;
     justify-content: space-between;
   }
 
   .payments .content-container .text-content {
-    width: 360px;
+    width: 384px;
   }
 
   .payment .content-containers .img-content {
     width: 790px;
+    margin: 0;
   }
 
-  .payments .content-container .img-content .image.bag {
-    background: url(../img/bag-desk.png) no-repeat;
-    background-size: cover;
-  }
-
-  .payments .content-container .img-content .image.passport {
-    background: url(../img/passport-desk.png) no-repeat;
-    background-size: cover;
-  }
-
-  .payments .content-container .img-content .image.people {
-    background: url(../img/people-desk.png) no-repeat;
-    background-size: cover;
-  }
 }
