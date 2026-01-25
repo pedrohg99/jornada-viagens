@@ -5,3 +5,43 @@
   padding: 0;
   margin-bottom: 24px;
 }
+
+.destinations {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0px 24px;
+  gap: 24px;
+  justify-content: center;
+}
+
+.destination-items article .img-item-tokio {
+  background: url(../img/tokyo-mobile.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 360px;
+}
+
+.destination-items article .img-item-osaka {
+  background: url(../img/osaka-mobile.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 360px;
+}
+
+.item h4 {
+  font-weight: var(--title-weight);
+  font-size: 28px;
+}
+
+.destination-items .item p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+}
+
+.item footer a {
+  margin-top: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+}
