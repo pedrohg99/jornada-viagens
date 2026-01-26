@@ -1,0 +1,30 @@
+.img-footer {
+  width: 100%;
+}
+
+.img-footer .footer-hero {
+  background: url(../img/image-rodape-mobile.jpg) no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .img-footer .footer-hero {
+    background: url(../img/image-rodape-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .img-footer .footer-hero {
+    background: url(../img/image-rodape-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .img-footer .footer-hero {
+    background: url(../img/image-rodape-desk.png) no-repeat;
+    background-size: cover;
+  }
+}
