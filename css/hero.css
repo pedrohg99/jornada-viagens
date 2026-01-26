@@ -3,8 +3,9 @@
   width: 100%;
 }
 
-.bottom-hero{
+.bottom-hero {
   width: 100%;
+  margin-bottom: 0;
 }
 
 .hero .hero-img {
@@ -79,4 +80,3 @@
     padding: 88px 120px;
   }
 }
-
